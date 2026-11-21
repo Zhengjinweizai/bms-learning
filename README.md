@@ -19,9 +19,10 @@
 
 ## 怎么读
 
-1. **总入口**：[knowledge/INDEX.md](knowledge/INDEX.md)（知识树 + 统计 + 待补约束清单）
-2. **离线阅读站**：运行 `python3 tools/build_site.py` 生成 `site/index.html`，浏览器打开即可全文搜索、按域浏览、跟学习路径、记已读进度
-3. **课程主线**：`knowledge/lessons/` 按域的最小学习路径推进（推荐从 SOC 主线 4 课开始）
+1. **在线交互版**：https://zhengjinweizai.github.io/bms-learning/ （GitHub Pages，开通后生效；手机可用）
+2. **总入口**：[knowledge/INDEX.md](knowledge/INDEX.md)（知识树 + 统计 + 待补约束清单）
+3. **离线交互版**：运行 `python3 tools/build_site.py` 生成 `site/index.html`（本地用）/ `docs/index.html`（仓库内同步副本），浏览器打开即可全文搜索、按域浏览、跟学习路径、记已读进度
+4. **课程主线**：`knowledge/lessons/` 按域的最小学习路径推进（推荐从 SOC 主线 4 课开始）
 
 ## 每日自动化
 

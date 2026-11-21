@@ -24,8 +24,9 @@
 - `radar/`：每日前沿与会议追踪
 - `compare/`：厂商对比矩阵
 - `meta/`：更新日志、来源登记、待验证清单、代理报告
-- `tools/`：构建脚本（`build_site.py`）
-- `site/`：生成的单文件离线阅读站（课程/知识树/路径/待验证，双击打开；课程更新后运行 `python3 tools/build_site.py` 重新生成）
+- `tools/`：构建脚本（`build_site.py`，双输出）
+- `site/`：本地离线阅读站（gitignore，不入库）
+- `docs/`：GitHub Pages 版交互站（入库并上线；`python3 tools/build_site.py` 同时生成两份）
 
 ## 可用技能（通过 / 技能名 调用）
 

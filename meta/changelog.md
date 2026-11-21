@@ -2,6 +2,14 @@
 
 > 版本号规则：骨架期 v0.x；知识图谱事实层开始批量溯源后升 v1.0。
 
+## 手动更新 — 2026-11-21（GitHub 上线 + 交互站入仓）
+
+- **项目推上 GitHub 公开仓库**：github.com/Zhengjinweizai/bms-learning（首提交含全量 126 文件）。
+- **修正提交署名**：机器原无 git 身份（显示系统用户名 YaoWL）→ 本仓库设置 GitHub 身份（noreply 邮箱），首提交重写为 b8fe43e。
+- **补 README.md**（仓库首页：三铁律/规模表/阅读方式/自动化说明）。
+- **交互式学习站入仓**：tools/build_site.py 升级为双输出——`site/`（本地离线版，gitignore）+ `docs/`（入库，含全部 77 门课程/知识树/路径/待验证的单文件交互站）；待用户在仓库 Settings → Pages 开通（main /docs）后，在线地址为 https://zhengjinweizai.github.io/bms-learning/ 。
+- **每日自动化新增步骤 6**：git 提交并推送（有变更才提交，push 失败如实记录）。
+
 ## 每日自动更新 — 2026-11-21
 
 - **雷达（radar/2026-11-21.md，窗口 11-18~21）**：主列表 3 条——**Moment Energy Nova：首个同时获 UL 1973 + UL 9540 双认证的第二生命 BESS**（11-17 发布，AI BMS 评估异构 SOH 电池，`CHM-04` 认证范本）、RE+ Las Vegas 展会（BMS ~1 分钟热插拔更换的 BESS）、Victron BMV-812；方向 3 今日无新增；背景：2026 年 **120+ GWh 车用电池到达车端寿命终点、过半保有 70~80% SOH**（梯次经济性量级）。CBIS2026 会中：固态论坛 11-20 已开，**日期口径修正为 11-19~21**；会中报道尚未出。
