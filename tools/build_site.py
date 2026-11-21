@@ -20,7 +20,8 @@ import re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LESSONS_DIR = ROOT / "knowledge" / "lessons"
-OUT_PATH = ROOT / "site" / "index.html"
+OUT_PATH = ROOT / "site" / "index.html"          # 本地离线版（gitignore）
+OUT_PAGES = ROOT / "docs" / "index.html"         # GitHub Pages 版（入库并上线）
 
 # 域元数据：key →（显示名，一句话说明）
 DOMAINS = [
@@ -290,9 +291,12 @@ def main():
     page = TEMPLATE.replace("__DATA__", payload)
     OUT_PATH.parent.mkdir(exist_ok=True)
     OUT_PATH.write_text(page, encoding="utf-8")
+    OUT_PAGES.parent.mkdir(exist_ok=True)
+    OUT_PAGES.write_text(page, encoding="utf-8")
     size_kb = OUT_PATH.stat().st_size / 1024
-    print("OK  site/index.html  %.0f KB  | 课程 %d 门 | 节点 %d | 待验证 %d"
+    print("OK  site/index.html      %.0f KB  | 课程 %d 门 | 节点 %d | 待验证 %d"
           % (size_kb, len(lessons), len(nodes), len(pending)))
+    print("OK  docs/index.html（GitHub Pages 同步）")
 
 
 TEMPLATE = r"""<!DOCTYPE html>
