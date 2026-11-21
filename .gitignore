@@ -1,0 +1,16 @@
+# 构建产物（tools/build_site.py 一键再生成）
+site/
+
+# 系统文件
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+
+# 本地临时文件
+*.swp
+*~
+
+# Obsidian 个人配置（vault 打开状态/窗口布局等机器本地数据）
+.obsidian/
