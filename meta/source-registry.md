@@ -89,6 +89,9 @@
 | S-84 | D. Urishov et al.（Aalto University + VTT），"A cloud based Digital Twin architecture for battery management systems with edge integration and advanced sensing"，*Internet of Things*（Elsevier），2026，PII S2666546826001850（开放获取） | 期刊论文（同行评议） | A | 2026-11-21 | P-77 关闭；GEN-3/ARCH-CE 候选证据；注意勿与同组 Energy and AI vol.25 论文混淆 |
 | S-85 | Moment Energy Nova 二次生命 BESS：**首个同时获 UL 1973 + UL 9540 认证**的第二生命储能系统（2026-11-17 发布，200/500 kW 级 C&I，AI BMS） | 厂商发布/行业媒体 | B | 2026-11-21 | CHM-04 认证范本（环境+能源领袖报道，原稿待补） |
 | S-86 | "End-of-life or second-life options for retired EV batteries"（ScienceDirect，PII S2666386421002484）——80%=EOL 退役口径 | 期刊文章 | B | 2026-11-21 | P-74 关闭（与 GB/T 34015 系列、综述共识互证）；CHM-04 已引用 |
+| S-87 | EU Horizon ENERGETIC 项目（Next Generation Battery Management System，CORDIS 101103667），含"混合 AI 数字孪生 BMS"工作包 | 官方项目描述 | B | 2026-11-22 | P-81 关闭；EU 下一代 BMS 观察组合第五项 |
+| S-88 | 钠电储能国标群：GB/T 44265-2024《电力储能电站钠离子电池技术规范》/ GB/T 48072-2026《…安全技术规范》（2027-03-01 实施）/ GB/T 48098-2026《…技术规范》（含术语，2027-03-01 实施） | 标准（国标） | A | 2026-11-22 | P-57 关闭：储能侧落地、车用动力钠电专门国标推进中；CHM-02 已引用 |
+| S-89 | 内短路（ISC）检测文献群：Shen et al., *Applied Energy* (2025) SCR 度量与分级（PII S0306261925015272）/ Naha et al., *Scientific Reports* (2020) 实时 ML 检测 / Jia et al., PHM Society (2023) BMS 集成早期检测 | 期刊论文/会议论文（同行评议） | A | 2026-11-22 | P-73 部分关闭：硬 <10~20 mΩ / 软 >1 kΩ 文献口径；量产筛查判据仍待企业标准 |
 
 ## 使用规则
 
