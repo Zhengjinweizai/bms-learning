@@ -79,13 +79,14 @@
 
 | 资源 | 级别 | 说明 |
 |---|---|---|
+| [TI 参考设计 TIDUF61：Automotive HVIL（恒流源+电流采样+窗口比较器）](https://www.ti.com/lit/ug/tiduf61/tiduf61.pdf) | A | ✅ | HVIL 参考设计（分立模拟+逻辑实现，S-102） |
+| [NXP BMU 用户手册 UM12196（原生 HVIL 回路）](https://docs.nxp.com/bundle/UM12196/page/topics/high_voltage_interlock_pilot_loop.html) | A | ✅ | HVIL 集成进 BMS 主控的代表（S-102） |
 | ISO 6469-3 原文 | A | 电气安全要求框架 |
 | GB 18384-2020 原文 | A | 整车安全要求 |
 | UN R100 原文（S-13） | A | 型式认证视角的高压安全 |
-| [待补链] | — | 数字式 HVIL 从机芯片公开资料 |
 
 ## 待核对项（本课）
 
 - GB 18384-2020 中 HVIL/互锁相关条款的准确表述与编号
 - 5 mA 恒流、100 Ω 采样电阻、50 mΩ 触点电阻等均为教学示意值，量产值随企标
-- 数字式 HVIL 的主流芯片方案与渗透率（待补公开资料）
+- ~~数字式 HVIL 的主流芯片方案~~ → **2026-11-28 部分核实（P-44 关闭，S-102）**：TI/NXP 无单颗"HVIL 专用芯片"——主流形态为参考设计（TI TIDA-020069/TIDUF61 分立方案）或集成进 BMU（NXP UM12196）；实现分 DC 源式与 PWM 式

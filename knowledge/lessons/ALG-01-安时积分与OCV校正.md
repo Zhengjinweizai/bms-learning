@@ -90,7 +90,8 @@ OCV 与 SOC 存在单调对应。静置足够久（让极化电压弛豫掉，�
 
 - S-16：G. Plett, *Battery Management Systems* Vol. I / Vol. II, Artech House, 2015（安时积分+OCV 校正框架）
 - S-03：GB/T 38661-2020 §5.5（**已核实 2026-11-15**：BEV/PHEV 的 SOC 估算累积误差 ≤5%，HEV 另有要求；试验方法在第 6 章）
-- P-14：LFP/NCM 平台段 dOCV/dSOC 典型数值（待文献核对后回填）
+- S-99：LFP 平台段文献群（2026-11-28 登记，P-14 关闭）——Weng et al. 统一 OCV 模型（*J. Power Sources*，519+ 引用）；平台段 dOCV/dSOC <1 mV/10% SOC、LFP SOC 误差可超 15~20%（Accure）；Shi 2026 Fisher 信息自适应（误差降 ~80%）
+- ~~P-14：LFP/NCM 平台段 dOCV/dSOC 典型数值~~ → **2026-11-28 已核实（S-99）**：平台段中段 <1 mV/10% SOC、误差放大因子 ≈1/(dOCV/dSOC)、LFP SOC 误差可超 15~20%（Weng 519 引用 / Shi 2026 / Accure）
 - P-15："LFP 车型建议定期满充"的官方用户手册来源
 
 ## 延伸资源（链接已于 2026-11-04 联网核实）

@@ -80,9 +80,11 @@ SYS-02 把 BMS 与整车的职责切开，节点定义（Network Node Definition
 | ISO 11898-1:2015 原文 | CAN 数据链路层与物理信令的权威定义 |
 | Bosch《CAN Specification》2.0（1991） | CAN 协议的原始规范，经典必读 |
 | 开源项目 SocketCAN / python-can | 用 Linux/Python 实操 CAN 报文，动手验证本课负载计算 |
+| [NI：CAN Frames 文档](https://www.ni.com/docs/en-US/bundle/ni-xnet/page/can-frames.html) | B | ✅ | 帧结构与填充规则（S-100） |
+| [Wikipedia：CAN bus](https://en.wikipedia.org/wiki/CAN_bus) | C/汇总 | ✅ | 帧长度与位填充口径汇总（S-100） |
 | AUTOSAR Classic Platform 标准文本 | COM/NM 配置化节点定义的工业参照 |
 
 ## 待核对项（本课）
 
-- 帧开销 130 bit 与"单节点 10~15%、整车 40~50%"负载经验值的文献出处（教学示意值，建议新 P 项）
+- ~~帧开销 130 bit~~ → **2026-11-28 部分核实（P-17 关闭，S-100）**：8 字节扩展帧未填充 ≈131 bit、位填充最坏 ~20% → 总线负载口径 ~150 bit/帧——与本文计算一致；"单节点 10~15%、整车 40~50%"负载经验值仍待文献
 - CAN FD 整车采用的典型速率档位（示意 2~5 Mbit/s，建议新 P 项）
